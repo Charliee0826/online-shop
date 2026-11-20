@@ -4,60 +4,243 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Discover our latest collection of products.">
-    <title>KarMa — Online Store</title>
+
+    <meta name="description" content="KarMa — Discover fashion and accessories for women and men.">
+
+    <title>KARMA — The Art of Personal Style</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+    <!-- ANNOUNCEMENT -->
+
+    <div class="announcement">
+        DISCOVER YOUR STYLE — WELCOME TO KARMA
+    </div>
+
+    <!-- HEADER -->
+
     <header class="header">
-        <a href="#" class="logo">KarMa<span>.</span></a>
+
+        <a href="#home" class="logo">KARMA<span>®</span></a>
 
         <nav class="navigation">
-            <a href="#home">Home</a>
+            <a href="#women">Women</a>
+            <a href="#men">Men</a>
             <a href="#products">Shop</a>
-            <a href="#about">About</a>
+            <a href="#story">Our Story</a>
         </nav>
 
         <a href="#products" class="cart">
-            Bag (<span id="cart-count">0</span>)
+            BAG (<span id="cart-count">0</span>)
         </a>
+
     </header>
 
     <main>
+
+        <!-- HERO -->
+
         <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
             <div class="hero-content">
-                <p class="eyebrow">NEW COLLECTION 2026</p>
-                <h1>Style that speaks for you.</h1>
-                <p>Discover carefully selected products for your everyday lifestyle.</p>
-                <a href="#products" class="shop-button">Explore Collection →</a>
+
+                <p class="eyebrow">THE NEW FASHION GENERATION</p>
+
+                <h1>
+                    BE BOLD.<br>
+                    BE YOURSELF.
+                </h1>
+
+                <p class="hero-description">
+                    Fashion is more than what you wear.
+                    It's how you express who you are.
+                </p>
+
+                <a href="#products" class="primary-button">
+                    EXPLORE COLLECTION <span>↗</span>
+                </a>
+
             </div>
+
+            <div class="hero-number">01 / KARMA COLLECTION</div>
+
         </section>
 
-        <section class="products-section" id="products">
-            <div class="section-heading">
-                <div>
-                    <p class="eyebrow">OUR COLLECTION</p>
-                    <h2>Featured Products</h2>
+        <!-- BRAND INTRO -->
+
+        <section class="brand-intro">
+
+            <p class="eyebrow">WELCOME TO KARMA</p>
+
+            <h2>
+                THE ART OF<br>
+                PERSONAL <span>STYLE.</span>
+            </h2>
+
+            <p>
+                Designed for individuality.
+                Created for everyday expression.
+            </p>
+
+        </section>
+
+        <!-- WOMEN & MEN -->
+
+        <section class="category-section">
+
+            <div class="category-card women-card" id="women">
+
+                <img
+                    src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=1100"
+                    alt="Women's fashion collection"
+                    loading="lazy"
+                >
+
+                <div class="category-content">
+
+                    <p class="eyebrow">THE WOMEN COLLECTION</p>
+
+                    <h2>WOMEN.</h2>
+
+                    <a href="#products" class="category-button">
+                        EXPLORE WOMEN ↗
+                    </a>
+
                 </div>
-                <p>Discover your favorites.</p>
+
+            </div>
+
+            <div class="category-card men-card" id="men">
+
+                <img
+                    src="https://images.unsplash.com/photo-1617137968427-85924c800a22?w=1100"
+                    alt="Men's fashion collection"
+                    loading="lazy"
+                >
+
+                <div class="category-content">
+
+                    <p class="eyebrow">THE MEN COLLECTION</p>
+
+                    <h2>MEN.</h2>
+
+                    <a href="#products" class="category-button">
+                        EXPLORE MEN ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- PRODUCTS -->
+
+        <section class="products-section" id="products">
+
+            <div class="section-heading">
+
+                <div>
+                    <p class="eyebrow">SELECTED FOR YOU</p>
+                    <h2>THE COLLECTION.</h2>
+                </div>
+
+                <p>Fashion meets individuality.</p>
+
+            </div>
+
+            <div class="collection-label">
+                <span>01 — CURATED PIECES</span>
+                <span>NEW SEASON / 2026</span>
             </div>
 
             <div class="products-grid" id="products-grid"></div>
+
         </section>
 
-        <section class="about" id="about">
-            <p class="eyebrow">ABOUT ELORA</p>
-            <h2>Simple choices. Beautiful living.</h2>
-            <p>We believe great style starts with thoughtful choices.</p>
+        <!-- EDITORIAL -->
+
+        <section class="editorial" id="story">
+
+            <div class="editorial-image">
+                <img
+                    src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=1200"
+                    alt="KarMa fashion editorial"
+                    loading="lazy"
+                >
+            </div>
+
+            <div class="editorial-content">
+
+                <p class="eyebrow">MORE THAN FASHION</p>
+
+                <h2>
+                    STYLE IS<br>
+                    YOUR OWN<br>
+                    <span>STATEMENT.</span>
+                </h2>
+
+                <p>
+                    We believe that personal style has no limits.
+                    KarMa brings together fashion and accessories
+                    for people who express themselves with confidence.
+                </p>
+
+                <a href="#products" class="text-link">
+                    DISCOVER KARMA ↗
+                </a>
+
+            </div>
+
         </section>
+
+        <!-- BRAND MESSAGE -->
+
+        <section class="brand-message">
+
+            <p>NOT HERE TO FOLLOW.</p>
+
+            <h2>HERE TO DEFINE.</h2>
+
+            <span>KARMA® — THE ART OF PERSONAL STYLE</span>
+
+        </section>
+
     </main>
 
-    <footer>
-        <a href="#" class="logo">ELORA<span>.</span></a>
-        <p>© 2026 ELORA. All rights reserved.</p>
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <div class="footer-top">
+
+            <a href="#home" class="logo">KARMA<span>®</span></a>
+
+            <p>FASHION. CULTURE. IDENTITY.</p>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>© 2026 KARMA. ALL RIGHTS RESERVED.</p>
+
+            <a href="#home">BACK TO TOP ↑</a>
+
+        </div>
+
     </footer>
 
     <script src="script.js"></script>
+
 </body>
 </html>
