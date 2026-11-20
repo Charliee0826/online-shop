@@ -45,7 +45,7 @@ const products = [
 ];
 
 // Get saved cart or create an empty one
-let cart = JSON.parse(localStorage.getItem("elora-cart")) || [];
+let cart = JSON.parse(localStorage.getItem("karma-cart")) || [];
 
 // Display products
 function displayProducts() {
@@ -76,7 +76,7 @@ function displayProducts() {
 
 // Save cart
 function saveCart() {
-    localStorage.setItem("elora-cart", JSON.stringify(cart));
+    localStorage.setItem("karma-cart", JSON.stringify(cart));
     updateCartCount();
 }
 
